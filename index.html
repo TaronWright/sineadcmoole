@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en" class="theme-light">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Sinead McCoole</title>
+  <meta name="title" content="Sinead McCoole - Author, Historian, Curator">
+  <meta name="description" content="A peak into the amazing historical Irish works by Sinead McCoole">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="./assets/css/embla.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Philosopher:wght@400;700&family=Poppins:wght@400;500;600&display=swap"
+    rel="stylesheet">
+
+  <!-- 
+    - preload image
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-banner.png">
+
+</head>
+
+<body>
+
+  <!-- Inline SVG sprite for compatibility (Safari/file://) -->
+  <svg xmlns="http://www.w3.org/2000/svg" style="display:none">
+    <symbol id="chev-down" viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet">
+      <path d="M7 10l5 5 5-5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+        stroke-linejoin="round" />
+    </symbol>
+  </svg>
+
+  <!-- 
+    - #HEADER
+  -->
+
+
+  <div class="nav-bar">
+
+    <img src="./assets/images/signature.png" class="navbar-signature" alt="signature" style="height: 60px" />
+    <nav class="navbar" data-navbar>
+      <ul class="navbar-list">
+
+        <li class="navbar-item">
+          <a href="index.html#home" class="navbar-link" data-nav-link>Home</a>
+        </li>
+
+        <li class="navbar-item"><a href="books.html" class="navbar-link" data-nav-link>Books</a></li>
+
+        <li class="navbar-item dropdown">
+          <button class="navbar-link dropdown-toggle" aria-expanded="false">
+            <span>Plays</span>
+            <svg class="dropdown-arrow" aria-hidden="true" role="img" width="14" height="14">
+              <use href="#chev-down" xlink:href="#chev-down"></use>
+            </svg>
+          </button>
+          <ul class="dropdown-menu" aria-label="Plays submenu">
+            <li><a href="plays.html#leaving_the_ladies">Leaving the Ladies</a></li>
+          </ul>
+        </li>
+
+        <li class="navbar-item">
+          <a href="talks.html" class="navbar-link" data-nav-link>Talks</a>
+        </li>
+
+        <li class="navbar-item">
+          <a href="tours.html" class="navbar-link" data-nav-link>Tours</a>
+        </li>
+
+        <li class="navbar-item">
+          <a href="about.html" class="navbar-link" data-nav-link>About</a>
+        </li>
+
+        <li class="navbar-item">
+          <a href="index.html#contact" class="navbar-link" data-nav-link>Contact</a>
+        </li>
+
+      </ul>
+    </nav>
+
+    <button class="nav-toggle-btn" aria-label="toggle menu" data-nav-toggler>
+      <ion-icon name="menu-outline" aria-hidden="true" class="open"></ion-icon>
+
+      <ion-icon name="close-outline" aria-hidden="true" class="close"></ion-icon>
+    </button>
+
+  </div>
+
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #AUTHOR
+      -->
+
+      <section class="section author" id="author">
+        <div class="container">
+
+          <figure class="author-banner">
+            <img src="./assets/images/sinead_profile_pic.jpg" loading="lazy" alt="Sinead McCoole" class="img-cover">
+            <!-- <img src="./assets/images/Signature_Box.svg" alt="Sinead McCoole" class="img-cover author-banner-img"
+              loading="lazy"> -->
+          </figure>
+
+
+
+          <div class="author-content">
+
+            <p class="section-subtitle">Author, Historian, Curator</p>
+
+            <h2 class="h2 section-title">Sinead McCoole</h2>
+
+            <p class="author-name">Irish Historian and Art Historian</p>
+
+            <div class="bio-description collapsed">
+              <div class="bio-description-content">
+                <p>Welcome to the world of Irish women's history. Sinéad McCoole is an award-winning historian, author,
+                  and curator dedicated to uncovering and sharing the remarkable stories of Irish women who shaped our
+                  past.</p>
+
+                <p>Through meticulously researched books, engaging exhibitions, and powerful storytelling across
+                  multiple
+                  media, Sinéad brings forgotten voices back to life and illuminates the crucial role women played in
+                  Ireland's history.</p>
+
+                <p>Explore her collection of critically acclaimed books, discover her theatrical works, and learn about
+                  the exhibitions that have captivated audiences across Ireland and beyond.</p>
+
+                <a href="about.html" class="about-link-btn">More About Me</a>
+              </div>
+
+              <button class="bio-expand-btn" aria-label="Expand biography">
+                <span class="expand-text">Read more</span>
+                <svg class="expand-arrow" width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
+                  <path d="M8 11L3 6h10l-5 5z" />
+                </svg>
+              </button>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+      <!-- 
+        - #BOOK SHOWCASE
+      -->
+
+      <section class="book-showcase">
+        <div class="container">
+          <h2 class="h2 section-title showcase-title">Published Works</h2>
+        </div>
+
+        <div class="showcase-track">
+          <div class="showcase-content">
+            <a href="books.html" class="showcase-book">
+              <img src="./assets/images/Books/Easter_Widows.jpg" alt="Easter Widows" loading="lazy">
+            </a>
+            <a href="books.html" class="showcase-book">
+              <img src="./assets/images/Books/No_Ordinary_Women.jpg" alt="No Ordinary Women" loading="lazy">
+            </a>
+            <a href="books.html" class="showcase-book">
+              <img src="./assets/images/Books/Guns_and_Chiffon.jpg" alt="Guns and Chiffon" loading="lazy">
+            </a>
+            <a href="books.html" class="showcase-book">
+              <img src="./assets/images/Books/hazel_a_life_of_lady_lavery.jpg" alt="Hazel: A Life of Lady Lavery"
+                loading="lazy">
+            </a>
+            <a href="books.html" class="showcase-book">
+              <img src="./assets/images/Books/leaving_the_ladies_book_cover.jpeg" alt="Leaving the Ladies"
+                loading="lazy">
+            </a>
+            <a href="books.html" class="showcase-book">
+              <img src="./assets/images/Books/mna_1916_book_cover.jpg" alt="Mná 1916" loading="lazy">
+            </a>
+            <!-- Duplicate for seamless loop -->
+            <a href="books.html" class="showcase-book">
+              <img src="./assets/images/Books/Easter_Widows.jpg" alt="Easter Widows" loading="lazy">
+            </a>
+            <a href="books.html" class="showcase-book">
+              <img src="./assets/images/Books/No_Ordinary_Women.jpg" alt="No Ordinary Women" loading="lazy">
+            </a>
+            <a href="books.html" class="showcase-book">
+              <img src="./assets/images/Books/Guns_and_Chiffon.jpg" alt="Guns and Chiffon" loading="lazy">
+            </a>
+            <a href="books.html" class="showcase-book">
+              <img src="./assets/images/Books/hazel_a_life_of_lady_lavery.jpg" alt="Hazel: A Life of Lady Lavery"
+                loading="lazy">
+            </a>
+            <a href="books.html" class="showcase-book">
+              <img src="./assets/images/Books/leaving_the_ladies_book_cover.jpeg" alt="Leaving the Ladies"
+                loading="lazy">
+            </a>
+            <a href="books.html" class="showcase-book">
+              <img src="./assets/images/Books/mna_1916_book_cover.jpg" alt="Mná 1916" loading="lazy">
+            </a>
+          </div>
+        </div>
+
+        <div class="container">
+          <a href="books.html" class="showcase-link">
+            Discover More
+            <ion-icon name="arrow-forward-outline"></ion-icon>
+          </a>
+        </div>
+      </section>
+
+      <!-- 
+        - #EXPLORE
+      -->
+
+      <section class="section explore" id="explore">
+        <div class="container">
+
+          <p class="section-subtitle">Discover More</p>
+
+          <h2 class="h2 section-title">Explore Sinéad's Work</h2>
+
+          <div class="explore-grid">
+
+            <a href="books.html" class="explore-card">
+              <div class="card-icon-circle">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+              <h3 class="h3 card-title">Books</h3>
+              <p class="card-text">
+                Explore award-winning publications on Irish women's history
+              </p>
+            </a>
+
+            <a href="plays.html" class="explore-card">
+              <div class="card-icon-circle">
+                <ion-icon name="film-outline"></ion-icon>
+              </div>
+              <h3 class="h3 card-title">Plays</h3>
+              <p class="card-text">
+                Discover theatrical works bringing history to life
+              </p>
+            </a>
+
+            <a href="tours.html" class="explore-card">
+              <div class="card-icon-circle">
+                <ion-icon name="walk-outline"></ion-icon>
+              </div>
+              <h3 class="h3 card-title">Walking Tours</h3>
+              <p class="card-text">
+                Join bespoke walking tours through Dublin's hidden past
+              </p>
+            </a>
+
+            <a href="talks.html" class="explore-card">
+              <div class="card-icon-circle">
+                <ion-icon name="mic-outline"></ion-icon>
+              </div>
+              <h3 class="h3 card-title">Talks & Consulting</h3>
+              <p class="card-text">
+                Book speaking engagements and historical consultations
+              </p>
+            </a>
+
+            <a href="index.html#exhibitions" class="explore-card">
+              <div class="card-icon-circle">
+                <ion-icon name="images-outline"></ion-icon>
+              </div>
+              <h3 class="h3 card-title">Exhibitions</h3>
+              <p class="card-text">
+                View curated exhibitions and museum collections
+              </p>
+            </a>
+
+            <a href="about.html" class="explore-card">
+              <div class="card-icon-circle">
+                <ion-icon name="person-outline"></ion-icon>
+              </div>
+              <h3 class="h3 card-title">About Sinéad</h3>
+              <p class="card-text">
+                Learn more about Sinéad's work and expertise
+              </p>
+            </a>
+
+          </div>
+
+        </div>
+      </section>
+
+      <!-- 
+        - #EMBLA CAROUSEL
+      -->
+      <!-- 
+      <section>
+        <div class="embla">
+          <div class="embla__viewport">
+            <div class="embla__container">
+              <div class="embla__slide">
+                <div class="embla__slide__number">
+                  <div class="embla_slide_contents">
+                    <div class="embla__slide__title">Slide 1</div>
+                    <div class="embla__slide__img"><img src="./assets/images/mna-100-group-photo.jpg" alt="Slide 1">
+                    </div>
+                    <div class="embla__slide__description">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                      Error corrupti consectetur sequi asperiores, odio quam corporis vero dolorem blanditiis,
+                      repudiandae voluptatum! Eos doloremque tenetur mollitia temporibus, velit magni expedita ullam?
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="embla__slide">
+                <div class="embla__slide__number">
+                  <div class="embla_slide_contents">
+                    <div class="embla__slide__title">Slide 2</div>
+                    <div class="embla__slide__img"><img src="./assets/images/mna-100-group-photo.jpg" alt="Slide 1">
+                    </div>
+                    <div class="embla__slide__description">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                      Error corrupti consectetur sequi asperiores, odio quam corporis vero dolorem blanditiis,
+                      repudiandae voluptatum! Eos doloremque tenetur mollitia temporibus, velit magni expedita ullam?
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="embla__slide">
+                <div class="embla__slide__number">
+                  <div class="embla_slide_contents">
+                    <div class="embla__slide__title">Slide 3</div>
+                    <div class="embla__slide__img"><img src="./assets/images/mna-100-group-photo.jpg" alt="Slide 1">
+                    </div>
+                    <div class="embla__slide__description">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                      Error corrupti consectetur sequi asperiores, odio quam corporis vero dolorem blanditiis,
+                      repudiandae voluptatum! Eos doloremque tenetur mollitia temporibus, velit magni expedita ullam?
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="embla__slide">
+                <div class="embla__slide__number">
+                  <div class="embla_slide_contents">
+                    <div class="embla__slide__title">Slide 4</div>
+                    <div class="embla__slide__img"><img src="./assets/images/mna-100-group-photo.jpg" alt="Slide 1">
+                    </div>
+                    <div class="embla__slide__description">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                      Error corrupti consectetur sequi asperiores, odio quam corporis vero dolorem blanditiis,
+                      repudiandae voluptatum! Eos doloremque tenetur mollitia temporibus, velit magni expedita ullam?
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="embla__slide">
+                <div class="embla__slide__number">
+                  <div class="embla_slide_contents">
+                    <div class="embla__slide__title">Slide 5</div>
+                    <div class="embla__slide__img"><img src="./assets/images/mna-100-group-photo.jpg" alt="Slide 1">
+                    </div>
+                    <div class="embla__slide__description">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                      Error corrupti consectetur sequi asperiores, odio quam corporis vero dolorem blanditiis,
+                      repudiandae voluptatum! Eos doloremque tenetur mollitia temporibus, velit magni expedita ullam?
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="embla__controls">
+            <div class="embla__buttons">
+              <button class="embla__button embla__button--prev" type="button" disabled="">
+                <svg class="embla__button__svg" viewBox="0 0 532 532">
+                  <path fill="currentColor"
+                    d="M355.66 11.354c13.793-13.805 36.208-13.805 50.001 0 13.785 13.804 13.785 36.238 0 50.034L201.22 266l204.442 204.61c13.785 13.805 13.785 36.239 0 50.044-13.793 13.796-36.208 13.796-50.002 0a5994246.277 5994246.277 0 0 0-229.332-229.454 35.065 35.065 0 0 1-10.326-25.126c0-9.2 3.393-18.26 10.326-25.2C172.192 194.973 332.731 34.31 355.66 11.354Z">
+                  </path>
+                </svg></button><button class="embla__button embla__button--next" type="button" disabled="">
+                <svg class="embla__button__svg" viewBox="0 0 532 532">
+                  <path fill="currentColor"
+                    d="M176.34 520.646c-13.793 13.805-36.208 13.805-50.001 0-13.785-13.804-13.785-36.238 0-50.034L330.78 266 126.34 61.391c-13.785-13.805-13.785-36.239 0-50.044 13.793-13.796 36.208-13.796 50.002 0 22.928 22.947 206.395 206.507 229.332 229.454a35.065 35.065 0 0 1 10.326 25.126c0 9.2-3.393 18.26-10.326 25.2-45.865 45.901-206.404 206.564-229.332 229.52Z">
+                  </path>
+                </svg>
+              </button>
+            </div>
+            <div class="embla__dots"></div>
+          </div>
+        </div>
+      </section>
+ -->
+
+      <!-- 
+        - #CONTACT
+      -->
+
+      <section class="section contact" id="contact" aria-label="contact">
+        <div class="container">
+
+          <p class="section-subtitle">Contact</p>
+
+          <h2 class="h2 section-title has-underline">
+            Write me anything
+            <span class="span has-before"></span>
+          </h2>
+
+          <div class="wrapper">
+
+            <form action="" class="contact-form">
+
+              <input type="text" name="name" placeholder="Your Name" required class="input-field">
+
+              <input type="email" name="email_address" placeholder="Your Email" required class="input-field">
+
+              <input type="text" name="subject" placeholder="Subject" required class="input-field">
+
+              <textarea name="message" placeholder="Your Message" class="input-field"></textarea>
+
+              <button type="submit" class="btn btn-primary">Send Now</button>
+
+            </form>
+
+            <ul class="contact-card">
+
+              <li>
+                <p class="card-title">Address:</p>
+
+                <address class="address">
+                  16, Lankaway <br>
+                  Florida, USA 99544
+                </address>
+              </li>
+
+              <li>
+                <p class="card-title">Phone:</p>
+
+                <a href="tel:1234567890" class="card-link">123 456 7890</a>
+              </li>
+
+              <li>
+                <p class="card-title">Email:</p>
+
+                <a href="mailto:support@support.com" class="card-link">support@support.com</a>
+              </li>
+
+              <li>
+                <p class="social-list-title h3">Connect book socials</p>
+
+                <ul class="social-list">
+
+                  <li>
+                    <a href="#" class="social-link">
+                      <ion-icon name="logo-facebook"></ion-icon>
+                    </a>
+                  </li>
+
+                  <li>
+                    <a href="#" class="social-link">
+                      <ion-icon name="logo-twitter"></ion-icon>
+                    </a>
+                  </li>
+
+                  <li>
+                    <a href="#" class="social-link">
+                      <ion-icon name="logo-linkedin"></ion-icon>
+                    </a>
+                  </li>
+
+                  <li>
+                    <a href="#" class="social-link">
+                      <ion-icon name="logo-youtube"></ion-icon>
+                    </a>
+                  </li>
+
+                  <li>
+                    <a href="#" class="social-link">
+                      <ion-icon name="logo-whatsapp"></ion-icon>
+                    </a>
+                  </li>
+
+                </ul>
+              </li>
+
+            </ul>
+
+          </div>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="container">
+
+      <div class="footer-top">
+
+        <div>
+          <h3 class="footer-title">Sinéad McCoole</h3>
+          <p class="footer-text">
+            Irish Historian and Author specializing in women's history. Discover the untold stories of Ireland's past.
+          </p>
+        </div>
+
+        <div class="footer-list">
+          <p class="footer-list-title">Get In Touch</p>
+          <ul>
+            <li><a href="mailto:info@sineadmccoole.com" class="footer-link">info@sineadmccoole.com</a></li>
+            <li><a href="tel:+353871234567" class="footer-link">+353 (0)87 123 4567</a></li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <p class="copyright">
+          &copy; 2026 Sinéad McCoole. All rights reserved.
+        </p>
+      </div>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="https://cdn.jsdelivr.net/npm/embla-carousel/embla-carousel.umd.js" defer></script>
+  <script type="module" src="assets/js/index.js" defer></script>
+  <script src="assets/js/script.js"></script>
+
+
+
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
